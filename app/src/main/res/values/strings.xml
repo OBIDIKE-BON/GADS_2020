@@ -1,0 +1,31 @@
+<resources>
+    <string name="learning_tab_title">Learning Leaders</string>
+    <string name="skill_iq_tab_title">Skill IQ Leaders</string>
+    <string name="app_name">GADS 2020</string>
+    <string name="main_Activity_label">LEADERBOARD</string>
+    <string name="title_activity_submit">SubmitActivity</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="welcome_img_description">Welcome to Google Associate Developers Scholarship (GADS) 2020</string>
+    <string name="btn_submit_text">Submit</string>
+    <string name="appBar_image_description">Submit Activity</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="github_link">Project on GITHUB (link)</string>
+    <string name="submit">Submit</string>
+    <string name="leader_badge">Leader Badge</string>
+    <string name="iq_score_text"> Skill IQ Score ,</string>
+    <string name="learning_hours_text"> Learning hours ,</string>
+    <string name="form_url"><![CDATA[https://docs.google.com/forms/d/e/1FAIpQLSf9d1TcNU6zc6KR8bSEM41Z1g1zl35cwZr2xyjIhaMAz8WChQ/formResponse]]></string>
+    <string name="submission_not_successful">Submission not Successful</string>
+    <string name="error_message">An Error Ocoured, PleaseTry Again!</string>
+    <string name="submission_successful">Submission Successful</string>
+    <string name="are_you_sure">Are you sure</string>
+    <string name="button_confirm">Button</string>
+    <string name="question_mark">\?</string>
+    <string name="confirmed_sumbit">Submission in progress</string>
+    <string name="submit_canceled">Submission Canceled</string>
+    <string name="emty_field">Atleast one text area is not filled, please complet all vacant text area</string>
+    <string name="timeout">time out</string>
+</resources>
