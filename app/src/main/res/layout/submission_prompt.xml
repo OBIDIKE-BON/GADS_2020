@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alert_bg"
+    tools:context=".SubmitActivity">
+
+    <TextView
+        android:id="@+id/txt_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/are_you_sure"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/txt_question_mark"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cancel" />
+
+    <Button
+        android:id="@+id/btn_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/dimen_48dp"
+        android:layout_marginBottom="@dimen/dimen_35dp"
+        android:background="@drawable/rounded_button_confirm"
+        android:paddingLeft="@dimen/dimen_35dp"
+        android:paddingRight="@dimen/dimen_35dp"
+        android:text="@string/button_confirm"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorAccent"
+        android:onClick="confirmSubmit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_question"
+        tools:text="Yes" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:background="@drawable/ic_cancel"
+        android:onClick="cancelSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_question_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="@string/question_mark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/txt_question"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cancel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

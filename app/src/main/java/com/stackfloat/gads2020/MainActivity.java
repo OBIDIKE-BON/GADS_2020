@@ -2,29 +2,15 @@ package com.stackfloat.gads2020;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.tabs.TabLayout;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
-import android.util.Log;
-import android.view.View;
-
+import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
-import com.stackfloat.gads2020.services.IQLeader;
-import com.stackfloat.gads2020.services.Leader;
-import com.stackfloat.gads2020.services.LeadersService;
-import com.stackfloat.gads2020.services.LeadersServiceBuilder;
-import com.stackfloat.gads2020.services.LearnerLeader;
 import com.stackfloat.gads2020.ui.main.SectionsPagerAdapter;
-
-import java.util.List;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
