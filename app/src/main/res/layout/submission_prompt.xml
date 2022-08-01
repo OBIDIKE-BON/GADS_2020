@@ -21,7 +21,8 @@
         app:layout_constraintEnd_toStartOf="@+id/txt_question_mark"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_cancel" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_cancel"
+        android:layout_marginLeft="@dimen/dimen_16dp" />
 
     <Button
         android:id="@+id/btn_yes"
